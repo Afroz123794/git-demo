@@ -25,6 +25,7 @@ public class EmployeeController {
 	@GetMapping("/employees")
 	public List<Employee> retrieveAllEmployees(){
 		System.out.println("retrieveAllEmployees method in  EmployeeController");
+		System.out.println("retrieveAllEmployees method in  EmployeeController1");
 		return employeeService.findAllEmployees();
 		
 	}
