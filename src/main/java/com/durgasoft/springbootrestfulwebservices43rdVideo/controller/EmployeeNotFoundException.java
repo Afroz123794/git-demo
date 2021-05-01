@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class EmployeeNotFoundException extends RuntimeException {
   
 	private static final long serialVersionUID = 1L;
+	
+	pubic EmployeeNotFoundException()
+	{
+		System.out.println("Default constructor");
+	}
 
 	public EmployeeNotFoundException(String message) {
 		super(message);
